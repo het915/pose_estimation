@@ -1,3 +1,11 @@
+#add files to ommit here (check twice before commiting)
+
+
+
+
+# vscode files
+.vscode
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
