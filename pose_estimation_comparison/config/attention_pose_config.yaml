@@ -1,0 +1,131 @@
+# AttentionPose Configuration
+# Enhanced FoundationPose with hierarchical attention for occlusion robustness
+
+model:
+  name: "attention_pose"
+  base_model: "foundation_pose"
+
+  # Hierarchical attention architecture
+  attention:
+    # Spatial attention for occluded regions
+    spatial_attention:
+      enabled: true
+      num_heads: 8
+      feature_dim: 256
+      dropout: 0.1
+      occlusion_aware: true
+
+    # Cross-modal attention (RGB-Depth fusion)
+    cross_modal_attention:
+      enabled: true
+      num_heads: 8
+      rgb_dim: 256
+      depth_dim: 256
+      fusion_dim: 256
+      dropout: 0.1
+
+    # Cross-reference attention (multi-view matching)
+    cross_reference_attention:
+      enabled: true
+      num_heads: 8
+      query_dim: 256
+      key_dim: 256
+      num_reference_views: 8
+      dropout: 0.1
+      attention_pooling: "max"  # max, mean, or learned
+
+    # Uncertainty estimation
+    uncertainty_net:
+      enabled: true
+      hidden_dims: [256, 128, 64]
+      output_dim: 7  # 6D pose + confidence
+      dropout: 0.2
+
+  encoder:
+    backbone: "resnet50"
+    pretrained: true
+    feature_dim: 256
+    freeze_backbone: false
+
+  renderer:
+    image_size: [224, 224]
+    num_reference_views: 8
+    render_resolution: 256
+
+  refinement:
+    num_iterations: 5
+    pose_update_lr: 0.01
+    attention_guided: true  # Use attention maps to guide refinement
+
+training:
+  batch_size: 12
+  num_epochs: 150
+  learning_rate: 0.0001
+  weight_decay: 0.0001
+  scheduler: "cosine"
+  warmup_epochs: 10
+  gradient_clip: 1.0
+
+  # Train across multiple objects like FoundationPose
+  per_object_training: false
+  use_synthetic_data: true
+
+  # Curriculum learning for occlusion
+  curriculum_learning:
+    enabled: true
+    start_occlusion: 0.0
+    end_occlusion: 0.8
+    warmup_epochs: 20
+
+loss:
+  pose_weight: 1.0
+  feature_matching_weight: 0.5
+  rendering_weight: 0.3
+  attention_weight: 0.2
+  uncertainty_weight: 0.1
+  symmetry_aware: true
+
+  # Occlusion-aware loss weighting
+  occlusion_aware_weighting: true
+
+data:
+  # Same as FoundationPose for fair comparison
+  train_objects: ["obj_01", "obj_02", "obj_03", "obj_04", "obj_05", "obj_06", "obj_07", "obj_08", "obj_09", "obj_10"]
+  val_objects: ["obj_11", "obj_12"]
+  test_objects: ["novel_01", "novel_02", "novel_03"]
+
+  # Extended occlusion levels for robustness
+  occlusion_levels: [0.0, 0.2, 0.4, 0.6, 0.8]
+
+  reference_views:
+    num_views: 8
+    hemisphere_sampling: true
+    diverse_viewpoints: true
+
+  augmentation:
+    random_rotation: true
+    random_translation: 0.05
+    lighting_variation: true
+    background_variation: true
+    synthetic_occlusion: true
+    occlusion_augmentation_prob: 0.5
+
+evaluation:
+  add_threshold: 0.1
+  adds_threshold: 0.1
+  rotation_threshold: 5.0
+  translation_threshold: 0.05
+  test_novel_objects: true
+
+  # Detailed occlusion analysis
+  occlusion_analysis:
+    enabled: true
+    occlusion_bins: [0.0, 0.2, 0.4, 0.6, 0.8]
+    visualize_attention: true
+
+  # Ablation study settings
+  ablation:
+    test_without_spatial_attention: false
+    test_without_cross_modal: false
+    test_without_cross_reference: false
+    test_without_uncertainty: false

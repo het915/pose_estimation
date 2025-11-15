@@ -1,0 +1,65 @@
+# FoundationPose Configuration
+# Novel object generalization with multi-view reference matching
+
+model:
+  name: "foundation_pose"
+
+  encoder:
+    backbone: "resnet50"
+    pretrained: true
+    feature_dim: 256
+
+  renderer:
+    image_size: [224, 224]
+    num_reference_views: 8
+    render_resolution: 256
+
+  refinement:
+    num_iterations: 5
+    pose_update_lr: 0.01
+    feature_matching: "cosine"
+
+training:
+  batch_size: 16
+  num_epochs: 100
+  learning_rate: 0.0001
+  weight_decay: 0.0001
+  scheduler: "step"
+  step_size: 30
+  gamma: 0.1
+  gradient_clip: 1.0
+
+  # FoundationPose trains across multiple objects
+  per_object_training: false
+  use_synthetic_data: true
+
+loss:
+  pose_weight: 1.0
+  feature_matching_weight: 0.5
+  rendering_weight: 0.3
+  symmetry_aware: true
+
+data:
+  # Novel object evaluation
+  train_objects: ["obj_01", "obj_02", "obj_03", "obj_04", "obj_05", "obj_06", "obj_07", "obj_08", "obj_09", "obj_10"]
+  val_objects: ["obj_11", "obj_12"]
+  test_objects: ["novel_01", "novel_02", "novel_03"]  # Completely novel objects
+
+  occlusion_levels: [0.0, 0.2, 0.4, 0.6]
+
+  reference_views:
+    num_views: 8
+    hemisphere_sampling: true
+
+  augmentation:
+    random_rotation: true
+    random_translation: 0.05
+    lighting_variation: true
+    background_variation: true
+
+evaluation:
+  add_threshold: 0.1
+  adds_threshold: 0.1
+  rotation_threshold: 5.0
+  translation_threshold: 0.05
+  test_novel_objects: true

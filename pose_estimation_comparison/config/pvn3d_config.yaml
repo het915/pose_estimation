@@ -1,0 +1,49 @@
+# PVN3D Configuration
+# Per-object training approach with PointNet++ backbone
+
+model:
+  name: "pvn3d"
+  num_points: 1024
+  num_keypoints: 8
+  pointnet_features: [64, 128, 256, 512]
+  mlp_features: [512, 256, 128]
+  use_rgb: true
+  use_normals: false
+
+training:
+  batch_size: 32
+  num_epochs: 200
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  scheduler: "cosine"
+  warmup_epochs: 10
+  gradient_clip: 1.0
+
+  # PVN3D requires per-object training
+  per_object_training: true
+
+loss:
+  keypoint_weight: 1.0
+  segmentation_weight: 0.5
+  center_weight: 1.0
+  rotation_weight: 1.0
+
+data:
+  train_objects: ["obj_01", "obj_02", "obj_03", "obj_04", "obj_05"]
+  val_objects: ["obj_06"]
+  test_objects: ["obj_07", "obj_08"]
+
+  # Occlusion levels for training
+  occlusion_levels: [0.0, 0.2, 0.4, 0.6]
+
+  augmentation:
+    random_rotation: true
+    random_translation: 0.05
+    random_scale: [0.8, 1.2]
+    color_jitter: true
+
+evaluation:
+  add_threshold: 0.1  # 10% of object diameter
+  adds_threshold: 0.1
+  rotation_threshold: 5.0  # degrees
+  translation_threshold: 0.05  # meters
