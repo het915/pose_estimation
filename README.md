@@ -36,7 +36,7 @@ This project extends NVIDIA's **FoundationPose** architecture to enable **langua
 The system achieves **real-time, occlusion-robust pose estimation** with **dynamic target switching** via natural language prompts—enabling robotic manipulators to seamlessly transition between tracking different objects (e.g., "grasp the red bottle" → "now grasp the blue cup") in unstructured environments.
 
 <p align="center">
-  <img src="GIF.gif" alt="6D Pose Estimation Demo" width="800">
+  <img src="media/GIF.gif" alt="6D Pose Estimation Demo" width="800">
 </p>
 
 ---
@@ -180,8 +180,16 @@ pose_estimation/
 │   │   ├── sam3_mask_service.py  # SAM-3 mask generation service
 │   │   └── scale_estimator.py    # Mesh scale alignment
 │   └── video_process/            # Video frame extraction & evaluation
-├── Report/
-│   └── CV_Project_Final.pdf      # Comprehensive project report
+├── media/
+│   ├── Report/
+│   │   └── CV_Project_Final.pdf  # Comprehensive project report
+│   ├── GIF.gif                   # Demo visualization
+│   └── thumbnail.png             # Project thumbnail
+├── results/
+│   ├── all_results_compact.csv   # Compact evaluation metrics
+│   ├── all_results_detailed.csv  # Detailed evaluation metrics
+│   ├── batch_evaluation_log.json # Evaluation logs
+│   └── evaluation_summary.txt    # Summary statistics
 └── README.md
 ```
 
