@@ -35,6 +35,10 @@ This project extends NVIDIA's **FoundationPose** architecture to enable **langua
 
 The system achieves **real-time, occlusion-robust pose estimation** with **dynamic target switching** via natural language prompts—enabling robotic manipulators to seamlessly transition between tracking different objects (e.g., "grasp the red bottle" → "now grasp the blue cup") in unstructured environments.
 
+<p align="center">
+  <img src="GIF.gif" alt="6D Pose Estimation Demo" width="800">
+</p>
+
 ---
 
 ## Key Features
