@@ -334,14 +334,10 @@ If you use this work, please cite:
 
 MIT License - See [LICENSE](LICENSE) for details
 
----
 
 ## Contact
-
 For questions or collaborations:
 - **Het Patel**: hcp4@illinois.edu
-- **Course**: CS543 Computer Vision, UIUC
-- **Project Date**: December 2025
 
 ---
 
