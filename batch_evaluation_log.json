@@ -1,0 +1,450 @@
+{
+  "total_evaluations": 55,
+  "completed": 55,
+  "failed": 0,
+  "skipped": 0,
+  "total_time_seconds": 13904.774311304092,
+  "parallel_workers": 1,
+  "results": [
+    {
+      "success": true,
+      "scene_id": 59,
+      "object_id": 2,
+      "object_name": "cracker box",
+      "time": 264.4167628288269,
+      "result_dir": "batch_evaluation_results_final/scene_000059_obj_02"
+    },
+    {
+      "success": true,
+      "scene_id": 59,
+      "object_id": 4,
+      "object_name": "tomato soup can",
+      "time": 270.0262117385864,
+      "result_dir": "batch_evaluation_results_final/scene_000059_obj_04"
+    },
+    {
+      "success": true,
+      "scene_id": 59,
+      "object_id": 6,
+      "object_name": "tuna fish can",
+      "time": 272.29515647888184,
+      "result_dir": "batch_evaluation_results_final/scene_000059_obj_06"
+    },
+    {
+      "success": true,
+      "scene_id": 59,
+      "object_id": 9,
+      "object_name": "potted meat can",
+      "time": 203.48501706123352,
+      "result_dir": "batch_evaluation_results_final/scene_000059_obj_09"
+    },
+    {
+      "success": true,
+      "scene_id": 59,
+      "object_id": 15,
+      "object_name": "power drill",
+      "time": 272.03563690185547,
+      "result_dir": "batch_evaluation_results_final/scene_000059_obj_15"
+    },
+    {
+      "success": true,
+      "scene_id": 59,
+      "object_id": 18,
+      "object_name": "large marker",
+      "time": 251.21562719345093,
+      "result_dir": "batch_evaluation_results_final/scene_000059_obj_18"
+    },
+    {
+      "success": true,
+      "scene_id": 58,
+      "object_id": 3,
+      "object_name": "sugar box",
+      "time": 272.4842908382416,
+      "result_dir": "batch_evaluation_results_final/scene_000058_obj_03"
+    },
+    {
+      "success": true,
+      "scene_id": 58,
+      "object_id": 7,
+      "object_name": "pudding box",
+      "time": 271.35784101486206,
+      "result_dir": "batch_evaluation_results_final/scene_000058_obj_07"
+    },
+    {
+      "success": true,
+      "scene_id": 58,
+      "object_id": 8,
+      "object_name": "gelatin box",
+      "time": 271.73789167404175,
+      "result_dir": "batch_evaluation_results_final/scene_000058_obj_08"
+    },
+    {
+      "success": true,
+      "scene_id": 58,
+      "object_id": 11,
+      "object_name": "pitcher base",
+      "time": 204.21635746955872,
+      "result_dir": "batch_evaluation_results_final/scene_000058_obj_11"
+    },
+    {
+      "success": true,
+      "scene_id": 57,
+      "object_id": 4,
+      "object_name": "tomato soup can",
+      "time": 271.77831053733826,
+      "result_dir": "batch_evaluation_results_final/scene_000057_obj_04"
+    },
+    {
+      "success": true,
+      "scene_id": 57,
+      "object_id": 12,
+      "object_name": "bleach cleanser",
+      "time": 270.9447000026703,
+      "result_dir": "batch_evaluation_results_final/scene_000057_obj_12"
+    },
+    {
+      "success": true,
+      "scene_id": 57,
+      "object_id": 18,
+      "object_name": "large marker",
+      "time": 231.02802777290344,
+      "result_dir": "batch_evaluation_results_final/scene_000057_obj_18"
+    },
+    {
+      "success": true,
+      "scene_id": 57,
+      "object_id": 20,
+      "object_name": " extra large clamp",
+      "time": 268.8466866016388,
+      "result_dir": "batch_evaluation_results_final/scene_000057_obj_20"
+    },
+    {
+      "success": true,
+      "scene_id": 57,
+      "object_id": 21,
+      "object_name": "foam brick",
+      "time": 202.91040468215942,
+      "result_dir": "batch_evaluation_results_final/scene_000057_obj_21"
+    },
+    {
+      "success": true,
+      "scene_id": 56,
+      "object_id": 1,
+      "object_name": "master chef can",
+      "time": 272.98140239715576,
+      "result_dir": "batch_evaluation_results_final/scene_000056_obj_01"
+    },
+    {
+      "success": true,
+      "scene_id": 56,
+      "object_id": 10,
+      "object_name": "banana",
+      "time": 272.29733633995056,
+      "result_dir": "batch_evaluation_results_final/scene_000056_obj_10"
+    },
+    {
+      "success": true,
+      "scene_id": 56,
+      "object_id": 11,
+      "object_name": "pitcher base",
+      "time": 204.13188362121582,
+      "result_dir": "batch_evaluation_results_final/scene_000056_obj_11"
+    },
+    {
+      "success": true,
+      "scene_id": 56,
+      "object_id": 15,
+      "object_name": "power drill",
+      "time": 271.7892746925354,
+      "result_dir": "batch_evaluation_results_final/scene_000056_obj_15"
+    },
+    {
+      "success": true,
+      "scene_id": 55,
+      "object_id": 1,
+      "object_name": "master chef can",
+      "time": 272.8722059726715,
+      "result_dir": "batch_evaluation_results_final/scene_000055_obj_01"
+    },
+    {
+      "success": true,
+      "scene_id": 55,
+      "object_id": 3,
+      "object_name": "sugar box",
+      "time": 204.4493842124939,
+      "result_dir": "batch_evaluation_results_final/scene_000055_obj_03"
+    },
+    {
+      "success": true,
+      "scene_id": 55,
+      "object_id": 4,
+      "object_name": "tomato soup can",
+      "time": 271.0407404899597,
+      "result_dir": "batch_evaluation_results_final/scene_000055_obj_04"
+    },
+    {
+      "success": true,
+      "scene_id": 55,
+      "object_id": 12,
+      "object_name": "bleach cleanser",
+      "time": 203.86786818504333,
+      "result_dir": "batch_evaluation_results_final/scene_000055_obj_12"
+    },
+    {
+      "success": true,
+      "scene_id": 55,
+      "object_id": 14,
+      "object_name": "mug",
+      "time": 279.2594532966614,
+      "result_dir": "batch_evaluation_results_final/scene_000055_obj_14"
+    },
+    {
+      "success": true,
+      "scene_id": 55,
+      "object_id": 16,
+      "object_name": "wood block",
+      "time": 272.42739605903625,
+      "result_dir": "batch_evaluation_results_final/scene_000055_obj_16"
+    },
+    {
+      "success": true,
+      "scene_id": 54,
+      "object_id": 2,
+      "object_name": "cracker box",
+      "time": 272.1608772277832,
+      "result_dir": "batch_evaluation_results_final/scene_000054_obj_02"
+    },
+    {
+      "success": true,
+      "scene_id": 54,
+      "object_id": 3,
+      "object_name": "sugar box",
+      "time": 204.62514877319336,
+      "result_dir": "batch_evaluation_results_final/scene_000054_obj_03"
+    },
+    {
+      "success": true,
+      "scene_id": 54,
+      "object_id": 12,
+      "object_name": "bleach cleanser",
+      "time": 259.03131794929504,
+      "result_dir": "batch_evaluation_results_final/scene_000054_obj_12"
+    },
+    {
+      "success": true,
+      "scene_id": 54,
+      "object_id": 15,
+      "object_name": "power drill",
+      "time": 272.0263526439667,
+      "result_dir": "batch_evaluation_results_final/scene_000054_obj_15"
+    },
+    {
+      "success": true,
+      "scene_id": 54,
+      "object_id": 19,
+      "object_name": "large clamp",
+      "time": 207.6394636631012,
+      "result_dir": "batch_evaluation_results_final/scene_000054_obj_19"
+    },
+    {
+      "success": true,
+      "scene_id": 53,
+      "object_id": 4,
+      "object_name": "tomato soup can",
+      "time": 271.7791180610657,
+      "result_dir": "batch_evaluation_results_final/scene_000053_obj_04"
+    },
+    {
+      "success": true,
+      "scene_id": 53,
+      "object_id": 9,
+      "object_name": "potted meat can",
+      "time": 203.69828939437866,
+      "result_dir": "batch_evaluation_results_final/scene_000053_obj_09"
+    },
+    {
+      "success": true,
+      "scene_id": 53,
+      "object_id": 13,
+      "object_name": "bowl",
+      "time": 271.2902464866638,
+      "result_dir": "batch_evaluation_results_final/scene_000053_obj_13"
+    },
+    {
+      "success": true,
+      "scene_id": 52,
+      "object_id": 5,
+      "object_name": "mustard bottle",
+      "time": 273.2393696308136,
+      "result_dir": "batch_evaluation_results_final/scene_000052_obj_05"
+    },
+    {
+      "success": true,
+      "scene_id": 52,
+      "object_id": 6,
+      "object_name": "tuna fish can",
+      "time": 270.9839389324188,
+      "result_dir": "batch_evaluation_results_final/scene_000052_obj_06"
+    },
+    {
+      "success": true,
+      "scene_id": 52,
+      "object_id": 11,
+      "object_name": "pitcher base",
+      "time": 203.9998972415924,
+      "result_dir": "batch_evaluation_results_final/scene_000052_obj_11"
+    },
+    {
+      "success": true,
+      "scene_id": 51,
+      "object_id": 1,
+      "object_name": "master chef can",
+      "time": 272.5378956794739,
+      "result_dir": "batch_evaluation_results_final/scene_000051_obj_01"
+    },
+    {
+      "success": true,
+      "scene_id": 51,
+      "object_id": 3,
+      "object_name": "sugar box",
+      "time": 215.62197875976562,
+      "result_dir": "batch_evaluation_results_final/scene_000051_obj_03"
+    },
+    {
+      "success": true,
+      "scene_id": 51,
+      "object_id": 4,
+      "object_name": "tomato soup can",
+      "time": 271.2665901184082,
+      "result_dir": "batch_evaluation_results_final/scene_000051_obj_04"
+    },
+    {
+      "success": true,
+      "scene_id": 51,
+      "object_id": 12,
+      "object_name": "bleach cleanser",
+      "time": 271.19152092933655,
+      "result_dir": "batch_evaluation_results_final/scene_000051_obj_12"
+    },
+    {
+      "success": true,
+      "scene_id": 51,
+      "object_id": 17,
+      "object_name": "scissors",
+      "time": 270.8272933959961,
+      "result_dir": "batch_evaluation_results_final/scene_000051_obj_17"
+    },
+    {
+      "success": true,
+      "scene_id": 50,
+      "object_id": 2,
+      "object_name": "cracker box",
+      "time": 273.0350661277771,
+      "result_dir": "batch_evaluation_results_final/scene_000050_obj_02"
+    },
+    {
+      "success": true,
+      "scene_id": 50,
+      "object_id": 4,
+      "object_name": "tomato soup can",
+      "time": 215.9827218055725,
+      "result_dir": "batch_evaluation_results_final/scene_000050_obj_04"
+    },
+    {
+      "success": true,
+      "scene_id": 50,
+      "object_id": 5,
+      "object_name": "mustard bottle",
+      "time": 272.36828780174255,
+      "result_dir": "batch_evaluation_results_final/scene_000050_obj_05"
+    },
+    {
+      "success": true,
+      "scene_id": 50,
+      "object_id": 10,
+      "object_name": "banana",
+      "time": 272.7479763031006,
+      "result_dir": "batch_evaluation_results_final/scene_000050_obj_10"
+    },
+    {
+      "success": true,
+      "scene_id": 50,
+      "object_id": 15,
+      "object_name": "power drill",
+      "time": 270.8745651245117,
+      "result_dir": "batch_evaluation_results_final/scene_000050_obj_15"
+    },
+    {
+      "success": true,
+      "scene_id": 49,
+      "object_id": 3,
+      "object_name": "sugar box",
+      "time": 204.44100975990295,
+      "result_dir": "batch_evaluation_results_final/scene_000049_obj_03"
+    },
+    {
+      "success": true,
+      "scene_id": 49,
+      "object_id": 6,
+      "object_name": "tuna fish can",
+      "time": 271.63516759872437,
+      "result_dir": "batch_evaluation_results_final/scene_000049_obj_06"
+    },
+    {
+      "success": true,
+      "scene_id": 49,
+      "object_id": 9,
+      "object_name": "potted meat can",
+      "time": 203.8632709980011,
+      "result_dir": "batch_evaluation_results_final/scene_000049_obj_09"
+    },
+    {
+      "success": true,
+      "scene_id": 49,
+      "object_id": 13,
+      "object_name": "bowl",
+      "time": 231.17267847061157,
+      "result_dir": "batch_evaluation_results_final/scene_000049_obj_13"
+    },
+    {
+      "success": true,
+      "scene_id": 48,
+      "object_id": 1,
+      "object_name": "master chef can",
+      "time": 273.21649050712585,
+      "result_dir": "batch_evaluation_results_final/scene_000048_obj_01"
+    },
+    {
+      "success": true,
+      "scene_id": 48,
+      "object_id": 6,
+      "object_name": "tuna fish can",
+      "time": 271.4316186904907,
+      "result_dir": "batch_evaluation_results_final/scene_000048_obj_06"
+    },
+    {
+      "success": true,
+      "scene_id": 48,
+      "object_id": 14,
+      "object_name": "mug",
+      "time": 280.8841395378113,
+      "result_dir": "batch_evaluation_results_final/scene_000048_obj_14"
+    },
+    {
+      "success": true,
+      "scene_id": 48,
+      "object_id": 19,
+      "object_name": "large clamp",
+      "time": 254.99242496490479,
+      "result_dir": "batch_evaluation_results_final/scene_000048_obj_19"
+    },
+    {
+      "success": true,
+      "scene_id": 48,
+      "object_id": 20,
+      "object_name": " extra large clamp",
+      "time": 272.2908115386963,
+      "result_dir": "batch_evaluation_results_final/scene_000048_obj_20"
+    }
+  ]
+}

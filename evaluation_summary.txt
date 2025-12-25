@@ -1,0 +1,313 @@
+================================================================================
+SAM3 + FOUNDATIONPOSE EVALUATION SUMMARY
+Generated: 2025-12-18 23:43:42
+================================================================================
+
+OVERALL STATISTICS
+--------------------------------------------------------------------------------
+Total evaluations:     44
+Total scenes:          12
+Total objects:         18
+Total frames:          787
+
+PERFORMANCE METRICS (Mean ± Std)
+--------------------------------------------------------------------------------
+ADD AUC:               71.61% ± 39.10%
+ADD-S AUC:             88.31% ± 28.56%
+Rotation Error:        44.23° ± 58.38°
+Translation Error:     2.44cm ± 6.13cm
+Processing Time:       13083ms ± 146ms
+
+
+================================================================================
+PER-OBJECT PERFORMANCE
+================================================================================
+
+
+Object 1: master chef can
+--------------------------------------------------------------------------------
+  Scenes tested:       4
+  ADD AUC:             83.0% ± 28.0%
+  ADD-S AUC:           99.0% ± 2.0%
+  Rotation Error:      29.8° ± 46.2°
+  Translation Error:   0.55cm ± 0.39cm
+  Processing Time:     13072ms
+
+Object 2: cracker box
+--------------------------------------------------------------------------------
+  Scenes tested:       3
+  ADD AUC:             92.0% ± 14.0%
+  ADD-S AUC:           92.0% ± 14.0%
+  Rotation Error:      9.7° ± 13.8°
+  Translation Error:   2.01cm ± 3.11cm
+  Processing Time:     12938ms
+
+Object 3: sugar box
+--------------------------------------------------------------------------------
+  Scenes tested:       2
+  ADD AUC:             50.0% ± 71.0%
+  ADD-S AUC:           63.0% ± 52.0%
+  Rotation Error:      66.3° ± 89.4°
+  Translation Error:   4.65cm ± 6.15cm
+  Processing Time:     13142ms
+
+Object 4: tomato soup can
+--------------------------------------------------------------------------------
+  Scenes tested:       6
+  ADD AUC:             57.0% ± 47.0%
+  ADD-S AUC:           63.0% ± 45.0%
+  Rotation Error:      58.2° ± 61.0°
+  Translation Error:   7.57cm ± 13.01cm
+  Processing Time:     13072ms
+
+Object 5: mustard bottle
+--------------------------------------------------------------------------------
+  Scenes tested:       2
+  ADD AUC:             90.0% ± 14.0%
+  ADD-S AUC:           100.0% ± 0.0%
+  Rotation Error:      19.7° ± 25.6°
+  Translation Error:   0.22cm ± 0.01cm
+  Processing Time:     13059ms
+
+Object 6: tuna fish can
+--------------------------------------------------------------------------------
+  Scenes tested:       4
+  ADD AUC:             98.0% ± 5.0%
+  ADD-S AUC:           98.0% ± 5.0%
+  Rotation Error:      7.4° ± 7.6°
+  Translation Error:   0.57cm ± 0.49cm
+  Processing Time:     13046ms
+
+Object 7: pudding box
+--------------------------------------------------------------------------------
+  Scenes tested:       1
+  ADD AUC:             100.0% ± nan%
+  ADD-S AUC:           100.0% ± nan%
+  Rotation Error:      2.7° ± nan°
+  Translation Error:   0.24cm ± nancm
+  Processing Time:     13037ms
+
+Object 8: gelatin box
+--------------------------------------------------------------------------------
+  Scenes tested:       1
+  ADD AUC:             10.0% ± nan%
+  ADD-S AUC:           12.0% ± nan%
+  Rotation Error:      101.3° ± nan°
+  Translation Error:   10.88cm ± nancm
+  Processing Time:     13046ms
+
+Object 10: banana
+--------------------------------------------------------------------------------
+  Scenes tested:       2
+  ADD AUC:             100.0% ± 0.0%
+  ADD-S AUC:           100.0% ± 0.0%
+  Rotation Error:      5.3° ± 0.4°
+  Translation Error:   0.40cm ± 0.04cm
+  Processing Time:     12961ms
+
+Object 12: bleach cleanser
+--------------------------------------------------------------------------------
+  Scenes tested:       3
+  ADD AUC:             100.0% ± 0.0%
+  ADD-S AUC:           100.0% ± 0.0%
+  Rotation Error:      2.4° ± 0.8°
+  Translation Error:   0.34cm ± 0.01cm
+  Processing Time:     13002ms
+
+Object 13: bowl
+--------------------------------------------------------------------------------
+  Scenes tested:       2
+  ADD AUC:             8.0% ± 1.0%
+  ADD-S AUC:           100.0% ± 0.0%
+  Rotation Error:      93.3° ± 57.6°
+  Translation Error:   0.38cm ± 0.20cm
+  Processing Time:     13075ms
+
+Object 14: mug
+--------------------------------------------------------------------------------
+  Scenes tested:       2
+  ADD AUC:             98.0% ± 3.0%
+  ADD-S AUC:           100.0% ± 0.0%
+  Rotation Error:      7.8° ± 3.7°
+  Translation Error:   0.48cm ± 0.01cm
+  Processing Time:     13438ms
+
+Object 15: power drill
+--------------------------------------------------------------------------------
+  Scenes tested:       4
+  ADD AUC:             100.0% ± 0.0%
+  ADD-S AUC:           100.0% ± 0.0%
+  Rotation Error:      2.0° ± 0.4°
+  Translation Error:   0.24cm ± 0.06cm
+  Processing Time:     13061ms
+
+Object 16: wood block
+--------------------------------------------------------------------------------
+  Scenes tested:       1
+  ADD AUC:             31.0% ± nan%
+  ADD-S AUC:           100.0% ± nan%
+  Rotation Error:      121.5° ± nan°
+  Translation Error:   0.57cm ± nancm
+  Processing Time:     13063ms
+
+Object 17: scissors
+--------------------------------------------------------------------------------
+  Scenes tested:       1
+  ADD AUC:             100.0% ± nan%
+  ADD-S AUC:           100.0% ± nan%
+  Rotation Error:      4.9° ± nan°
+  Translation Error:   0.23cm ± nancm
+  Processing Time:     13046ms
+
+Object 18: large marker
+--------------------------------------------------------------------------------
+  Scenes tested:       2
+  ADD AUC:             25.0% ± 9.0%
+  ADD-S AUC:           100.0% ± 0.0%
+  Rotation Error:      139.8° ± 18.6°
+  Translation Error:   0.37cm ± 0.05cm
+  Processing Time:     13176ms
+
+Object 19: vertical large clamp
+--------------------------------------------------------------------------------
+  Scenes tested:       2
+  ADD AUC:             47.0% ± 58.0%
+  ADD-S AUC:           100.0% ± 0.0%
+  Rotation Error:      102.6° ± 104.5°
+  Translation Error:   1.02cm ± 0.53cm
+  Processing Time:     13339ms
+
+Object 20: horizontal extra large clamp
+--------------------------------------------------------------------------------
+  Scenes tested:       2
+  ADD AUC:             17.0% ± 24.0%
+  ADD-S AUC:           52.0% ± 67.0%
+  Rotation Error:      152.1° ± 27.8°
+  Translation Error:   11.28cm ± 13.97cm
+  Processing Time:     13059ms
+
+
+================================================================================
+PER-SCENE PERFORMANCE
+================================================================================
+
+Scene 48
+--------------------------------------------------------------------------------
+  Objects tested:      5
+  Avg ADD AUC:         64.0%
+  Avg ADD-S AUC:       79.0%
+  Avg Rot Error:       64.6°
+  Avg Trans Error:     4.93cm
+
+Scene 49
+--------------------------------------------------------------------------------
+  Objects tested:      2
+  Avg ADD AUC:         54.0%
+  Avg ADD-S AUC:       100.0%
+  Avg Rot Error:       27.6°
+  Avg Trans Error:     0.35cm
+
+Scene 50
+--------------------------------------------------------------------------------
+  Objects tested:      5
+  Avg ADD AUC:         86.0%
+  Avg ADD-S AUC:       92.0%
+  Avg Rot Error:       24.9°
+  Avg Trans Error:     0.73cm
+
+Scene 51
+--------------------------------------------------------------------------------
+  Objects tested:      5
+  Avg ADD AUC:         82.0%
+  Avg ADD-S AUC:       83.0%
+  Avg Rot Error:       22.7°
+  Avg Trans Error:     2.01cm
+
+Scene 52
+--------------------------------------------------------------------------------
+  Objects tested:      2
+  Avg ADD AUC:         90.0%
+  Avg ADD-S AUC:       100.0%
+  Avg Rot Error:       21.0°
+  Avg Trans Error:     0.24cm
+
+Scene 53
+--------------------------------------------------------------------------------
+  Objects tested:      2
+  Avg ADD AUC:         54.0%
+  Avg ADD-S AUC:       100.0%
+  Avg Rot Error:       68.3°
+  Avg Trans Error:     0.33cm
+
+Scene 54
+--------------------------------------------------------------------------------
+  Objects tested:      4
+  Avg ADD AUC:         70.0%
+  Avg ADD-S AUC:       94.0%
+  Avg Rot Error:       51.8°
+  Avg Trans Error:     1.88cm
+
+Scene 55
+--------------------------------------------------------------------------------
+  Objects tested:      4
+  Avg ADD AUC:         55.0%
+  Avg ADD-S AUC:       75.0%
+  Avg Rot Error:       68.0°
+  Avg Trans Error:     8.65cm
+
+Scene 56
+--------------------------------------------------------------------------------
+  Objects tested:      3
+  Avg ADD AUC:         100.0%
+  Avg ADD-S AUC:       100.0%
+  Avg Rot Error:       2.6°
+  Avg Trans Error:     0.32cm
+
+Scene 57
+--------------------------------------------------------------------------------
+  Objects tested:      4
+  Avg ADD AUC:         66.0%
+  Avg ADD-S AUC:       100.0%
+  Avg Rot Error:       65.9°
+  Avg Trans Error:     0.64cm
+
+Scene 58
+--------------------------------------------------------------------------------
+  Objects tested:      3
+  Avg ADD AUC:         37.0%
+  Avg ADD-S AUC:       46.0%
+  Avg Rot Error:       77.8°
+  Avg Trans Error:     6.71cm
+
+Scene 59
+--------------------------------------------------------------------------------
+  Objects tested:      5
+  Avg ADD AUC:         84.0%
+  Avg ADD-S AUC:       100.0%
+  Avg Rot Error:       33.4°
+  Avg Trans Error:     0.29cm
+
+
+================================================================================
+BEST PERFORMERS (by ADD-S AUC)
+================================================================================
+
+Scene 48, Object 1 (master chef can): 100.0% AUC, 98.7° rot error
+Scene 48, Object 14 (mug): 100.0% AUC, 5.1° rot error
+Scene 48, Object 19 (vertical large clamp): 100.0% AUC, 28.7° rot error
+Scene 49, Object 6 (tuna fish can): 100.0% AUC, 2.7° rot error
+Scene 49, Object 13 (bowl): 100.0% AUC, 52.6° rot error
+
+================================================================================
+CHALLENGING CASES (lowest ADD-S AUC)
+================================================================================
+
+Scene 55, Object 4 (tomato soup can): 0.0% AUC, 128.0° rot error
+Scene 48, Object 20 (horizontal extra large clamp): 5.0% AUC, 171.7° rot error
+Scene 58, Object 8 (gelatin box): 11.6% AUC, 101.4° rot error
+Scene 51, Object 4 (tomato soup can): 17.8% AUC, 97.1° rot error
+Scene 58, Object 3 (sugar box): 26.5% AUC, 129.5° rot error
+
+================================================================================
+END OF SUMMARY
+================================================================================
